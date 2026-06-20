@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.egg-info/
+.eggs/
+build/
+dist/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+config.ini
+secrets.yaml
+credentials.json
+
+# Data files
+*.csv
+*.tsv
+*.parquet
+*.avro
+*.json
+*.jsonl
+*.xlsx
+*.xls
+*.db
+*.sqlite3
+*.h5
+*.hdf5
+data/
+datasets/
+raw_data/
+processed_data/
+
+# Logs
+*.log
+logs/
+
+# Airflow
+airflow.db
+airflow.cfg
+airflow-webserver.pid
+logs/
+plugins/__pycache__/
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Docker
+*.pid
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Terraform (if used for infra)
+*.tfstate
+*.tfstate.backup
+.terraform/
